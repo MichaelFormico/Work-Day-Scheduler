@@ -31,8 +31,8 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
-<!-- Current day at the top of the planner -->
-<!-- Add timeblocks until 5 pm -->
+<!-- Current day at the top of the planner --> DONE
+<!-- Add timeblocks until 5 pm --> DONE
 <!-- Change timeblock colors to differenciate between past, present, and future -->
 <!-- Click into timeblock to add event -->
 <!-- Save button will save in local storage and make events persist -->
