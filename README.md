@@ -1,104 +1,67 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
+Project Title
+Description
+This is a command-line application that dynamically generates a professional README.md file based on user input using the Inquirer package. It helps developers quickly create high-quality README files for their projects, including information about the project's purpose, usage, installation, and more.
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Table of Contents
+Installation
+Usage
+License
+Contributing
+Tests
+Questions
+Installation
+To use this README generator, follow these steps:
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+Clone the repository to your local machine.
+bash
+Copy code
+git clone https://github.com/your-username/your-repo.git
+Navigate to the project directory.
+bash
+Copy code
+cd your-repo
+Install the required dependencies.
+bash
+Copy code
+npm install
+Run the application.
+bash
+Copy code
+node index.js
+Usage
+Once the application is running, you will be prompted to answer a series of questions about your project. These questions will cover various sections of the README file, including project description, installation instructions, usage information, contribution guidelines, test instructions, and more. Follow the prompts and provide the necessary information.
 
-## User Story
+Contributing
+If you would like to contribute to this project, please follow the guidelines below:
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+Fork the repository on GitHub.
 
-## Acceptance Criteria
+Clone your forked repository to your local machine.
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-<!-- Current day at the top of the planner --> DONE
-<!-- Add timeblocks until 5 pm --> DONE
-<!-- Change timeblock colors to differenciate between past, present, and future -->
-<!-- Click into timeblock to add event -->
-<!-- Save button will save in local storage and make events persist -->
+Create a new branch for your feature or bug fix.
 
-The following animation demonstrates the application functionality:
+Make your changes and commit them with descriptive commit messages.
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+Push your changes to your forked repository.
 
-## Grading Requirements
+Create a pull request to the original repository.
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+Wait for the maintainers to review and merge your pull request.
 
-This Challenge is graded based on the following criteria:
+Tests
+To run tests for this application, follow these steps:
 
-### Technical Acceptance Criteria: 40%
+Ensure that the required dependencies are installed (see Installation section).
 
-* Satisfies all of the above acceptance criteria plus the following:
+Run the tests.
 
-  * Uses a date utility library to work with date and time
+bash
+Copy code
+npm test
+Questions
+If you have any questions or need further assistance with this project, please feel free to contact me:
 
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Mike Formico 
+michaelformico@gmail.com
